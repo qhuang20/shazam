@@ -6,7 +6,7 @@
 
 <p align="center">A Claude Code plugin for planning, architecture, bug triage, and development workflows.</p>
 
-Not sure where to start? Just shout `/shazam-hub` and it'll guide you.
+Not sure where to start? Just shout **SHAZAM!** and it'll guide you.
 
 ## Skills
 

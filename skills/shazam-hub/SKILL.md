@@ -1,6 +1,6 @@
 ---
 name: shazam-hub
-description: Navigation hub for the Shazam plugin. Shows available skills and suggests what to use next based on the user's current context. Use when user is unsure what to do next, wants to see available skills, or asks for guidance on their workflow.
+description: Navigation hub for the Shazam plugin. Shows available skills and suggests what to use next. Use when user says "shazam", "SHAZAM!", wants to see available skills, or asks for guidance on their workflow.
 ---
 
 # Shazam
