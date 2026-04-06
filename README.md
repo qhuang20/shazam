@@ -1,8 +1,8 @@
-# Shazam
+# SHAZAM! ⚡
 
 A Claude Code plugin for planning, architecture, bug triage, and development workflows.
 
-Type `/shazam-hub` to get started. Call it anytime for guidance on what to do next.
+Not sure where to start? Just shout `/shazam-hub` and it'll guide you.
 
 ## Skills
 
