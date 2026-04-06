@@ -86,3 +86,7 @@ Reference by number from the parent PRD:
 </issue-template>
 
 Do NOT close or modify the parent PRD issue.
+
+## What comes next
+
+After issues are created, suggest: "Issues created! You can start coding, or `/grill-me` on any issue that feels underspecified. `/triage-issue` to deep-dive a specific bug. Type `/shazam` anytime for guidance."

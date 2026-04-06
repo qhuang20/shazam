@@ -66,3 +66,7 @@ A description of the things that are out of scope for this refactor.
 Any further notes about the refactor.
 
 </refactor-plan-template>
+
+## What comes next
+
+After the refactor plan is filed, suggest: "Refactor plan filed! Start implementing, or `/grill-me` to stress-test the approach. Type `/shazam` anytime for guidance."

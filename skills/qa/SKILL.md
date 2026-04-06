@@ -128,3 +128,7 @@ After filing, print all issue URLs (with blocking relationships summarized) and 
 ### 5. Continue the session
 
 Keep going until the user says they're done. Each issue is independent — don't batch them.
+
+## What comes next
+
+When the QA session ends, suggest: "QA session done! Next: `/github-triage` to prioritize the filed issues, or `/triage-issue` to investigate the most critical one. Type `/shazam` anytime for guidance."

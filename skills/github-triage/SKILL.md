@@ -173,3 +173,7 @@ When triaging an issue that already has triage notes from a previous session:
 3. Check if the reporter has answered any outstanding questions
 4. Present the maintainer with an updated picture: "Here's where we left off, and here's what the reporter has said since"
 5. Continue the grilling from where it stopped — do not re-ask resolved questions
+
+## What comes next
+
+After triage is complete, suggest: "Triage done! Pick a `ready-for-agent` issue to start coding, or `/triage-issue` to deep-dive a specific bug. Type `/shazam` anytime for guidance."

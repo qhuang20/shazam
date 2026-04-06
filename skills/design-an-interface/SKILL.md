@@ -92,3 +92,7 @@ From "A Philosophy of Software Design":
 - Don't skip comparison - the value is in contrast
 - Don't implement - this is purely about interface shape
 - Don't evaluate based on implementation effort
+
+## What comes next
+
+After an interface is chosen, suggest: "Interface chosen! Next: `/request-refactor-plan` to plan the migration to the new interface. Type `/shazam` anytime for guidance."

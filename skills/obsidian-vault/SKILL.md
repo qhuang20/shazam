@@ -57,3 +57,7 @@ grep -rl "\\[\\[Note Title\\]\\]" "/mnt/d/Obsidian Vault/AI Research/"
 ```bash
 find "/mnt/d/Obsidian Vault/AI Research/" -name "*Index*"
 ```
+
+## What comes next
+
+After vault operations are complete, suggest: "Notes updated! Type `/shazam` anytime for guidance on other skills."

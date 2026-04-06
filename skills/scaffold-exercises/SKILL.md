@@ -104,3 +104,7 @@ exercises/05-memory-skill-building/05.02-short-term-memory/problem/readme.md -> 
 exercises/05-memory-skill-building/05.02-short-term-memory/solution/readme.md -> "# Short-term Memory"
 exercises/05-memory-skill-building/05.03-long-term-memory/explainer/readme.md -> "# Long-term Memory"
 ```
+
+## What comes next
+
+After scaffolding is complete, suggest: "Exercises scaffolded! Type `/shazam` anytime for guidance on other skills."

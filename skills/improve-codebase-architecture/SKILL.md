@@ -74,3 +74,7 @@ After comparing, give your own recommendation: which design you think is stronge
 ### 7. Create GitHub issue
 
 Create a refactor RFC as a GitHub issue using `gh issue create`. Use the template in [REFERENCE.md](REFERENCE.md). Do NOT ask the user to review before creating — just create it and share the URL.
+
+## What comes next
+
+After the RFC is created, suggest: "RFC filed! Next: `/request-refactor-plan` to plan the refactor as tiny commits, or `/design-an-interface` to explore more interface options. Type `/shazam` anytime for guidance."

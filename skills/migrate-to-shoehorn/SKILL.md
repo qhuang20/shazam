@@ -116,3 +116,7 @@ getUser(fromAny({ body: { id: 123 } }));
    - [ ] Replace `as unknown as Type` with `fromAny()`
    - [ ] Add imports from `@total-typescript/shoehorn`
    - [ ] Run type check to verify
+
+## What comes next
+
+After migration is complete, suggest: "Migration done! Type `/shazam` anytime for guidance on other skills."

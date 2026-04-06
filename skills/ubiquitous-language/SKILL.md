@@ -90,3 +90,7 @@ When invoked again in the same conversation:
 3. Update definitions if understanding has evolved
 4. Re-flag any new ambiguities
 5. Rewrite the example dialogue to incorporate new terms
+
+## What comes next
+
+After the glossary is saved, suggest: "Glossary saved to UBIQUITOUS_LANGUAGE.md! All future skills will use consistent terminology. Type `/shazam` anytime for guidance."

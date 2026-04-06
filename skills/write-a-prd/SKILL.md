@@ -72,3 +72,7 @@ A description of the things that are out of scope for this PRD.
 Any further notes about the feature.
 
 </prd-template>
+
+## What comes next
+
+After the PRD is created, suggest: "PRD done! Next: `/prd-to-plan` to break it into phases, or `/prd-to-issues` to create tickets directly. `/grill-me` to stress-test the design first. Type `/shazam` anytime for guidance."

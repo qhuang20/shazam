@@ -8,3 +8,7 @@ Interview me relentlessly about every aspect of this plan until we reach a share
 Ask the questions one at a time.
 
 If a question can be answered by exploring the codebase, explore the codebase instead.
+
+## What comes next
+
+When all branches are resolved, suggest based on context: "All branches resolved! If this was for a PRD, try `/prd-to-plan`. For a refactor, try `/request-refactor-plan`. Type `/shazam` anytime for guidance."

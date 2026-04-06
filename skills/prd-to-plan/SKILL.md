@@ -105,3 +105,7 @@ A concise description of this vertical slice. Describe the end-to-end behavior, 
 
 <!-- Repeat for each phase -->
 </plan-template>
+
+## What comes next
+
+After the plan is saved, suggest: "Plan ready! Next: `/prd-to-issues` to turn phases into GitHub Issues, or `/grill-me` to stress-test the plan first. Type `/shazam` anytime for guidance."

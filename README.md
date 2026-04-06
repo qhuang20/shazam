@@ -1,117 +1,109 @@
-# Agent Skills
+# Shazam
 
-A collection of agent skills that extend capabilities across planning, development, and tooling.
+A Claude Code plugin with 18 skills for planning, architecture, bug triage, and development workflows. Based on [mattpocock/skills](https://github.com/mattpocock/skills).
 
-## Planning & Design
+**New here? Type `/shazam` to get started.** It will guide you to the right skill based on what you want to do. You can call it anytime for suggestions on what to do next.
 
-These skills help you think through problems before writing code.
+## Workflow Map
 
-- **write-a-prd** — Create a PRD through an interactive interview, codebase exploration, and module design. Filed as a GitHub issue.
+```
+/shazam  (start here - call anytime for guidance)
 
-  ```
-  npx skills@latest add mattpocock/skills/write-a-prd
-  ```
+--- Build a new feature ---
+/write-a-prd             Write a PRD through interactive interview
+    |
+    v
+/prd-to-plan             Break PRD into phased implementation plan
+    |
+    v
+/prd-to-issues           Break PRD into GitHub Issues with dependencies
+    |
+    v
+    Start coding!
 
-- **prd-to-plan** — Turn a PRD into a multi-phase implementation plan using tracer-bullet vertical slices.
+--- Improve existing code ---
+/improve-codebase-architecture   Find shallow modules, propose deepening
+    |
+    v
+/request-refactor-plan           Plan refactor as tiny commits
+    |
+    v
+/design-an-interface             "Design It Twice" - compare 3+ designs
 
-  ```
-  npx skills@latest add mattpocock/skills/prd-to-plan
-  ```
+--- Handle bugs & issues ---
+/triage-issue            Investigate bug, find root cause, file fix plan
+/github-triage           Batch triage GitHub Issues with label state machine
+/qa                      Conversational QA session - describe bugs, auto-file
 
-- **prd-to-issues** — Break a PRD into independently-grabbable GitHub issues using vertical slices.
+--- Think & stress-test ---
+/grill-me                Get grilled on any plan or design
 
-  ```
-  npx skills@latest add mattpocock/skills/prd-to-issues
-  ```
+--- Domain & writing ---
+/ubiquitous-language     Extract DDD glossary from conversation
+/edit-article            Restructure and tighten an article draft
 
-- **grill-me** — Get relentlessly interviewed about a plan or design until every branch of the decision tree is resolved.
+--- Tooling ---
+/git-guardrails-claude-code   Block dangerous git commands via hooks
+/setup-pre-commit             Husky + lint-staged + Prettier
+```
 
-  ```
-  npx skills@latest add mattpocock/skills/grill-me
-  ```
+## All Skills
 
-- **design-an-interface** — Generate multiple radically different interface designs for a module using parallel sub-agents.
+### Planning & Design
 
-  ```
-  npx skills@latest add mattpocock/skills/design-an-interface
-  ```
+| Skill | Command | Description |
+|-------|---------|-------------|
+| **write-a-prd** | `/write-a-prd` | Create a PRD through interactive interview and codebase exploration, filed as a GitHub Issue |
+| **prd-to-plan** | `/prd-to-plan` | Break a PRD into phased vertical slices (tracer bullets), saved as Markdown |
+| **prd-to-issues** | `/prd-to-issues` | Break a PRD into independently-grabbable GitHub Issues with acceptance criteria and dependencies |
+| **grill-me** | `/grill-me` | Stress-test any plan or design by walking every branch of the decision tree |
+| **design-an-interface** | `/design-an-interface` | "Design It Twice" - generate 3+ radically different module interface designs for comparison |
 
-- **request-refactor-plan** — Create a detailed refactor plan with tiny commits via user interview, then file it as a GitHub issue.
+### Architecture & Refactoring
 
-  ```
-  npx skills@latest add mattpocock/skills/request-refactor-plan
-  ```
+| Skill | Command | Description |
+|-------|---------|-------------|
+| **improve-codebase-architecture** | `/improve-codebase-architecture` | Explore codebase for shallow modules and propose architectural improvements |
+| **request-refactor-plan** | `/request-refactor-plan` | Plan a refactor as tiny commits via interview, filed as a GitHub RFC Issue |
+| **ubiquitous-language** | `/ubiquitous-language` | Extract a DDD-style glossary from conversation, saved to `UBIQUITOUS_LANGUAGE.md` |
 
-## Development
+### Bug Triage & QA
 
-These skills help you write, refactor, and fix code.
+| Skill | Command | Description |
+|-------|---------|-------------|
+| **triage-issue** | `/triage-issue` | Investigate a bug, find root cause, file a GitHub Issue with TDD fix plan |
+| **github-triage** | `/github-triage` | Batch triage GitHub Issues using a label-based state machine |
+| **qa** | `/qa` | Conversational QA session - describe bugs, auto-explore codebase and file Issues |
 
-- **tdd** — Test-driven development with a red-green-refactor loop. Builds features or fixes bugs one vertical slice at a time.
+### Writing
 
-  ```
-  npx skills@latest add mattpocock/skills/tdd
-  ```
+| Skill | Command | Description |
+|-------|---------|-------------|
+| **edit-article** | `/edit-article` | Restructure and tighten an article draft, section by section |
 
-- **triage-issue** — Investigate a bug by exploring the codebase, identify the root cause, and file a GitHub issue with a TDD-based fix plan.
+### Tooling & Setup
 
-  ```
-  npx skills@latest add mattpocock/skills/triage-issue
-  ```
+| Skill | Command | Description |
+|-------|---------|-------------|
+| **git-guardrails-claude-code** | `/git-guardrails-claude-code` | Install hooks to block dangerous git commands (push, reset --hard, etc.) |
+| **setup-pre-commit** | `/setup-pre-commit` | Set up Husky + lint-staged + Prettier pre-commit hooks |
 
-- **improve-codebase-architecture** — Explore a codebase for architectural improvement opportunities, focusing on deepening shallow modules and improving testability.
+### Specialized
 
-  ```
-  npx skills@latest add mattpocock/skills/improve-codebase-architecture
-  ```
+| Skill | Command | Description |
+|-------|---------|-------------|
+| **migrate-to-shoehorn** | `/migrate-to-shoehorn` | Replace `as` type assertions in tests with @total-typescript/shoehorn |
+| **scaffold-exercises** | `/scaffold-exercises` | Create course exercise directory structures |
+| **obsidian-vault** | `/obsidian-vault` | Manage notes in an Obsidian vault with wikilinks and index notes |
 
-- **migrate-to-shoehorn** — Migrate test files from `as` type assertions to @total-typescript/shoehorn.
+## How It Works
 
-  ```
-  npx skills@latest add mattpocock/skills/migrate-to-shoehorn
-  ```
+Each skill is a self-contained prompt in `skills/<name>/SKILL.md`. When you invoke a slash command, Claude follows the instructions in that skill file.
 
-- **scaffold-exercises** — Create exercise directory structures with sections, problems, solutions, and explainers.
+After each skill completes, it suggests what to do next - these are **soft suggestions**, not forced steps. You're always in control.
 
-  ```
-  npx skills@latest add mattpocock/skills/scaffold-exercises
-  ```
+## Credits
 
-## Tooling & Setup
-
-- **setup-pre-commit** — Set up Husky pre-commit hooks with lint-staged, Prettier, type checking, and tests.
-
-  ```
-  npx skills@latest add mattpocock/skills/setup-pre-commit
-  ```
-
-- **git-guardrails-claude-code** — Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, etc.) before they execute.
-
-  ```
-  npx skills@latest add mattpocock/skills/git-guardrails-claude-code
-  ```
-
-## Writing & Knowledge
-
-- **write-a-skill** — Create new skills with proper structure, progressive disclosure, and bundled resources.
-
-  ```
-  npx skills@latest add mattpocock/skills/write-a-skill
-  ```
-
-- **edit-article** — Edit and improve articles by restructuring sections, improving clarity, and tightening prose.
-
-  ```
-  npx skills@latest add mattpocock/skills/edit-article
-  ```
-
-- **ubiquitous-language** — Extract a DDD-style ubiquitous language glossary from the current conversation.
-
-  ```
-  npx skills@latest add mattpocock/skills/ubiquitous-language
-  ```
-
-- **obsidian-vault** — Search, create, and manage notes in an Obsidian vault with wikilinks and index notes.
-
-  ```
-  npx skills@latest add mattpocock/skills/obsidian-vault
-  ```
+- Skills based on [mattpocock/skills](https://github.com/mattpocock/skills).
+- Navigation hub (`/shazam`) and skill chaining inspired by [obra/superpowers](https://github.com/obra/superpowers), which uses strict state-machine orchestration and mandatory hooks to enforce workflow discipline. Shazam takes a lighter approach: soft suggestions instead of hard gates, no session-start hooks, and the user stays in control at every step.
+- Navigation and chaining added by Danny Huang.

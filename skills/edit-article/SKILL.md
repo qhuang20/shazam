@@ -12,3 +12,7 @@ Confirm the sections with the user.
 2. For each section:
 
 2a. Rewrite the section to improve clarity, coherence, and flow. Use maximum 240 characters per paragraph.
+
+## What comes next
+
+After editing is complete, suggest: "Article polished! Type `/shazam` anytime for guidance on other skills."
