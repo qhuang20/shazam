@@ -11,4 +11,4 @@ If a question can be answered by exploring the codebase, explore the codebase in
 
 ## What comes next
 
-When all branches are resolved, suggest: "All branches resolved! Now continue with whatever skill brought you here. Type `/shazam-hub` anytime for guidance."
+When all branches are resolved, suggest: "All branches resolved! Now continue with whatever skill brought you here."

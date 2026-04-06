@@ -131,4 +131,4 @@ Keep going until the user says they're done. Each issue is independent — don't
 
 ## What comes next
 
-When the QA session ends, suggest: "QA session done! Next: `/github-triage` to prioritize the filed issues. Type `/shazam-hub` anytime for guidance."
+When the QA session ends, suggest: "QA session done! Next: `/github-triage` to prioritize the filed issues."

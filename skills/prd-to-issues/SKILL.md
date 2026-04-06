@@ -89,4 +89,4 @@ Do NOT close or modify the parent PRD issue.
 
 ## What comes next
 
-After issues are created, suggest: "Issues created! Start coding, or `/grill-me` on any issue that feels underspecified. Type `/shazam-hub` anytime for guidance."
+After issues are created, suggest: "Issues created! Start coding, or `/grill-me` on any issue that feels underspecified."

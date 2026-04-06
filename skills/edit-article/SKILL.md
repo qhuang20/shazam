@@ -15,4 +15,4 @@ Confirm the sections with the user.
 
 ## What comes next
 
-After editing is complete, suggest: "Article polished! Type `/shazam-hub` anytime for guidance on other skills."
+After editing is complete, suggest: "Article polished!"

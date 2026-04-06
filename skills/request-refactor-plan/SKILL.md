@@ -69,4 +69,4 @@ Any further notes about the refactor.
 
 ## What comes next
 
-After the refactor plan is filed, suggest: "Refactor plan filed! Start implementing, or `/grill-me` to stress-test the approach. Type `/shazam-hub` anytime for guidance."
+After the refactor plan is filed, suggest: "Refactor plan filed! Start implementing, or `/grill-me` to stress-test the approach."
