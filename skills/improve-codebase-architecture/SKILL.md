@@ -77,4 +77,4 @@ Create a refactor RFC as a GitHub issue using `gh issue create`. Use the templat
 
 ## What comes next
 
-After the RFC is created, suggest: "RFC filed! Next: `/request-refactor-plan` to plan the refactor as tiny commits, or `/design-an-interface` to explore more interface options. Type `/shazam` anytime for guidance."
+After the RFC is created, suggest: "Candidates identified! Start coding, or `/grill-me` to stress-test the approach. Type `/shazam-hub` anytime for guidance."

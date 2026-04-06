@@ -107,4 +107,4 @@ exercises/05-memory-skill-building/05.03-long-term-memory/explainer/readme.md ->
 
 ## What comes next
 
-After scaffolding is complete, suggest: "Exercises scaffolded! Type `/shazam` anytime for guidance on other skills."
+After scaffolding is complete, suggest: "Exercises scaffolded! Type `/shazam-hub` anytime for guidance on other skills."

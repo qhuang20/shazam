@@ -119,4 +119,4 @@ getUser(fromAny({ body: { id: 123 } }));
 
 ## What comes next
 
-After migration is complete, suggest: "Migration done! Type `/shazam` anytime for guidance on other skills."
+After migration is complete, suggest: "Migration done! Type `/shazam-hub` anytime for guidance on other skills."

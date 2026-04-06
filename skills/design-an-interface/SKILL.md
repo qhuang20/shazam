@@ -95,4 +95,4 @@ From "A Philosophy of Software Design":
 
 ## What comes next
 
-After an interface is chosen, suggest: "Interface chosen! Next: `/request-refactor-plan` to plan the migration to the new interface. Type `/shazam` anytime for guidance."
+After an interface is chosen, suggest: "Interface chosen! Start coding, or `/grill-me` to stress-test the design. Type `/shazam-hub` anytime for guidance."

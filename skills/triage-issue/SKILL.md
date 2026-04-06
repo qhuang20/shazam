@@ -103,4 +103,4 @@ After creating the issue, print the issue URL and a one-line summary of the root
 
 ## What comes next
 
-After the issue is filed, suggest: "Issue filed with fix plan! Start implementing, or `/github-triage` to continue triaging other issues. Type `/shazam` anytime for guidance."
+After the issue is filed, suggest: "Issue filed with fix plan! Start fixing. Type `/shazam-hub` anytime for guidance."

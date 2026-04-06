@@ -108,4 +108,4 @@ A concise description of this vertical slice. Describe the end-to-end behavior, 
 
 ## What comes next
 
-After the plan is saved, suggest: "Plan ready! Next: `/prd-to-issues` to turn phases into GitHub Issues, or `/grill-me` to stress-test the plan first. Type `/shazam` anytime for guidance."
+After the plan is saved, suggest: "Plan ready! Next: `/prd-to-issues` to turn phases into GitHub Issues, or `/grill-me` to stress-test the plan first. Type `/shazam-hub` anytime for guidance."

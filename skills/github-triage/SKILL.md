@@ -176,4 +176,4 @@ When triaging an issue that already has triage notes from a previous session:
 
 ## What comes next
 
-After triage is complete, suggest: "Triage done! Pick a `ready-for-agent` issue to start coding, or `/triage-issue` to deep-dive a specific bug. Type `/shazam` anytime for guidance."
+After triage is complete, suggest: "Triage done! Pick an issue to work on, or `/triage-issue` to deep-dive a specific bug. Type `/shazam-hub` anytime for guidance."

@@ -93,4 +93,4 @@ When invoked again in the same conversation:
 
 ## What comes next
 
-After the glossary is saved, suggest: "Glossary saved to UBIQUITOUS_LANGUAGE.md! All future skills will use consistent terminology. Type `/shazam` anytime for guidance."
+After the glossary is saved, suggest: "Glossary saved to UBIQUITOUS_LANGUAGE.md! All future skills will use consistent terminology. Type `/shazam-hub` anytime for guidance."

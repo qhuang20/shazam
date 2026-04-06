@@ -92,4 +92,4 @@ This will run through the new pre-commit hooks — a good smoke test that everyt
 
 ## What comes next
 
-After pre-commit is set up, suggest: "Pre-commit hooks installed! You might also want `/git-guardrails-claude-code` to block dangerous git commands. Type `/shazam` anytime for guidance."
+After pre-commit is set up, suggest: "Pre-commit hooks installed! You might also want `/git-guardrails-claude-code` to block dangerous git commands. Type `/shazam-hub` anytime for guidance."

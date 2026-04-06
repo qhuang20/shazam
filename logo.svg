@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow-strong">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="textshadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Big lightning bolt - flash animation -->
+  <polygon points="230,10 100,200 175,200 145,390 290,170 210,170" fill="#FFE814" stroke="#E8D00E" stroke-width="3" stroke-linejoin="round" filter="url(#glow-strong)">
+    <animate attributeName="opacity" values="1;0.6;1;0.8;1" dur="1.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="scale" values="1;1.03;1;0.98;1" dur="1.5s" repeatCount="indefinite" additive="sum" origin="200 200"/>
+  </polygon>
+
+  <!-- Electric branches - top left -->
+  <polyline points="120,80 95,50 85,65 60,30" fill="none" stroke="#FFE814" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0.8;0;0" dur="1.2s" repeatCount="indefinite"/>
+  </polyline>
+  <polyline points="95,50 75,55 55,35" fill="none" stroke="#FFE814" stroke-width="2" stroke-linecap="round" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;0;1;0.5;0" dur="1.2s" repeatCount="indefinite"/>
+  </polyline>
+
+  <!-- Electric branches - top right -->
+  <polyline points="270,60 300,30 310,50 340,20" fill="none" stroke="#FFE814" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;0.8;0;1;0" dur="1.4s" repeatCount="indefinite"/>
+  </polyline>
+  <polyline points="300,30 320,40 345,15" fill="none" stroke="#FFE814" stroke-width="2" stroke-linecap="round" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;0;0.7;0;0.9;0" dur="1.4s" repeatCount="indefinite"/>
+  </polyline>
+
+  <!-- Electric branches - bottom left -->
+  <polyline points="110,310 80,340 70,325 40,360" fill="none" stroke="#FFE814" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;0;1;0;0.6;0" dur="1.6s" repeatCount="indefinite"/>
+  </polyline>
+
+  <!-- Electric branches - right side -->
+  <polyline points="310,150 340,140 350,155 375,135" fill="none" stroke="#FFE814" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.7;0;0;1;0" dur="1.3s" repeatCount="indefinite"/>
+  </polyline>
+  <polyline points="340,140 355,160 380,150" fill="none" stroke="#FFE814" stroke-width="1.5" stroke-linecap="round" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;0.9;0;0;0.5;0" dur="1.3s" repeatCount="indefinite"/>
+  </polyline>
+
+  <!-- Electric branches - bottom right -->
+  <polyline points="280,330 310,355 300,340 330,370" fill="none" stroke="#FFE814" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <animate attributeName="opacity" values="0;1;0;0;0.8;0" dur="1.8s" repeatCount="indefinite"/>
+  </polyline>
+
+  <!-- SHAZAM! text -->
+  <text x="200" y="260" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="82" font-style="italic" fill="#E52535" stroke="#8B0000" stroke-width="1.5" transform="rotate(-12, 200, 240)" filter="url(#textshadow)">
+    SHAZAM!
+  </text>
+</svg>
