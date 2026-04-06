@@ -1,6 +1,10 @@
-# SHAZAM! ⚡
+<p align="center">
+  <img src="logo.svg" width="200" alt="Shazam logo"/>
+</p>
 
-A Claude Code plugin for planning, architecture, bug triage, and development workflows.
+<h1 align="center">SHAZAM! ⚡</h1>
+
+<p align="center">A Claude Code plugin for planning, architecture, bug triage, and development workflows.</p>
 
 Not sure where to start? Just shout `/shazam-hub` and it'll guide you.
 
