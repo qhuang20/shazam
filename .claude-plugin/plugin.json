@@ -1,11 +1,11 @@
 {
   "name": "shazam",
-  "description": "Planning, design exploration, architecture improvement, and workflow skills — from mattpocock/skills",
+  "description": "A Claude Code plugin for planning, architecture, bug triage, and development workflows. Just shout SHAZAM!",
   "version": "1.0.0",
   "author": {
     "name": "Danny Huang"
   },
-  "repository": "https://github.com/mattpocock/skills",
+  "repository": "https://github.com/qhuang20/shazam",
   "license": "MIT",
   "keywords": [
     "planning",
@@ -13,6 +13,8 @@
     "design",
     "architecture",
     "triage",
-    "workflows"
+    "workflows",
+    "navigation",
+    "skill-chaining"
   ]
 }
