@@ -6,6 +6,10 @@
 
 <p align="center">A Claude Code plugin for planning, architecture, bug triage, and development workflows.</p>
 
+<p align="center">
+  English | <a href="README.zh-CN.md">中文</a>
+</p>
+
 Not sure where to start? Just shout **SHAZAM!** and it'll guide you.
 
 ## Skills
