@@ -1,0 +1,14 @@
+{
+  "name": "shazam",
+  "owner": {
+    "name": "Danny Huang"
+  },
+  "plugins": [
+    {
+      "name": "shazam",
+      "source": "./",
+      "description": "Planning, architecture, bug triage, and development workflows",
+      "version": "1.0.0"
+    }
+  ]
+}
